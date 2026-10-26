@@ -1,5 +1,18 @@
 # Historial de versiones
 
+## 0.4 — 26/10/2026
+
+Nueva interfaz «Estudio».
+
+- **Panel de propiedades a la derecha:** al hacer clic en un texto aparecen ahí su contenido, fuente, tamaño, negrita, cursiva y color. Ya no se abre una ventana para cada cambio.
+- **Intro aplica** el cambio y **Esc** suelta la selección. Mayús+Intro hace un salto de línea.
+- El texto elegido queda marcado en la página mientras lo editas.
+- **Selector Palabra · Línea · Párrafo** en la barra de herramientas, y botones Texto, Firma y Borrar zona con iconos propios.
+- **Buscador siempre visible** en la barra (Ctrl+F). Buscar y reemplazar pasa a Ctrl+H.
+- **Botón Guardar destacado**, con un punto cuando hay cambios sin guardar.
+- Al escribir texto nuevo, una marca azul indica dónde irá y se escribe en el panel.
+- Cuando no hay nada seleccionado, el panel muestra ayuda y los atajos de teclado.
+
 ## 0.3 — 26/10/2026
 
 Primera versión con el nombre **Piston** (antes «Editor de PDFs»).

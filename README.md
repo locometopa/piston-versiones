@@ -7,7 +7,7 @@ Aquí se publican los instaladores de Piston. El programa consulta este reposito
 
 ## Descargar
 
-Última versión: **0.3** → [Descargar Piston-0.3-setup.exe](instaladores/Piston-0.3-setup.exe?raw=1)
+Última versión: **0.4** → [Descargar Piston-0.4-setup.exe](instaladores/Piston-0.4-setup.exe?raw=1)
 
 Las versiones anteriores están en la carpeta [instaladores](instaladores).
 
