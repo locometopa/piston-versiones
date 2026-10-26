@@ -1,8 +1,8 @@
 {
-  "version": "0.4",
-  "installer": "instaladores/Piston-0.4-setup.exe",
-  "size": 42939185,
-  "sha256": "1c13787347a10737b7af70e6bce3fe44d5e28dfe3678192db6e0c724420c7a29",
+  "version": "0.5",
+  "installer": "https://github.com/locometopa/piston-versiones/releases/download/v0.5/Piston-0.5-setup.exe",
+  "size": 61507132,
+  "sha256": "f994ff184108b09c15734a15c669455453eef3b4ef382954451d31d01981374d",
   "date": "2026-10-26",
-  "notes": "Nueva interfaz «Estudio».\n\n- **Panel de propiedades a la derecha:** al hacer clic en un texto aparecen ahí su contenido, fuente, tamaño, negrita, cursiva y color. Ya no se abre una ventana para cada cambio.\n- **Intro aplica** el cambio y **Esc** suelta la selección. Mayús+Intro hace un salto de línea.\n- El texto elegido queda marcado en la página mientras lo editas.\n- **Selector Palabra · Línea · Párrafo** en la barra de herramientas, y botones Texto, Firma y Borrar zona con iconos propios.\n- **Buscador siempre visible** en la barra (Ctrl+F). Buscar y reemplazar pasa a Ctrl+H.\n- **Botón Guardar destacado**, con un punto cuando hay cambios sin guardar.\n- Al escribir texto nuevo, una marca azul indica dónde irá y se escribe en el panel.\n- Cuando no hay nada seleccionado, el panel muestra ayuda y los atajos de teclado."
+  "notes": "**Editar PDFs escaneados o «impresos a PDF».**\n\n- Las páginas que son una imagen (escaneos, o documentos guardados con «Microsoft Print to PDF») ya se pueden editar: Piston reconoce su texto automáticamente (OCR en español e inglés, sin internet).\n- Al cambiar un texto reconocido, el antiguo se tapa con el color del fondo y el nuevo se escribe encima con un tamaño, color y negrita parecidos al original.\n- En las tablas respeta los bordes de las celdas, y los importes alineados a la derecha siguen alineados a la derecha.\n- El panel avisa cuando el texto es reconocido, para que revises que está bien leído.\n- Nuevo en el menú Páginas: «Reconocer el texto de la imagen (OCR)», para activarlo a mano en páginas mixtas.\n\n**Programa**\n- Piston se compila y se prueba solo en la nube cada vez que hay cambios, y publica la versión nueva automáticamente."
 }
