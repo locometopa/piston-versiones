@@ -1,0 +1,8 @@
+{
+  "version": "0.3",
+  "installer": "instaladores/Piston-0.3-setup.exe",
+  "size": 42922450,
+  "sha256": "4e3337db4c5ca6e76df97dba6af5c078fd215a23b4d5fd5209095817e9e5811d",
+  "date": "2026-10-26",
+  "notes": "Primera versión con el nombre **Piston** (antes «Editor de PDFs»).\n\n**Edición de texto**\n- Edición por palabra, por línea o por párrafo.\n- El texto nuevo conserva la fuente, el tamaño, el color, la negrita y la cursiva del original. Si el PDF ya contiene las letras necesarias, usa su misma fuente y queda idéntico.\n- Al cambiar una palabra, el resto de la línea se recoloca solo.\n- Si el texto nuevo choca con otra columna o con el borde de una tabla, se encoge lo justo.\n- Borrar texto ya no deja huecos blancos: los fondos de color, las imágenes y las tablas se conservan.\n- Funciona en páginas giradas, con texto vertical y en PDFs con contraseña (que se mantiene al guardar).\n\n**Herramientas**\n- Añadir texto nuevo, insertar imágenes o firmas y borrar zonas (solo texto, todo o tapar con blanco).\n- Miniaturas de páginas: reordenar arrastrando, girar, duplicar, eliminar e insertar páginas en blanco.\n- Unir PDFs, insertar un PDF en medio, guardar páginas sueltas y exportar una página como imagen.\n- Buscar y reemplazar en todo el documento.\n- Deshacer y rehacer, zoom, guardar encima del archivo, aviso de cambios sin guardar y archivos recientes.\n\n**Programa**\n- Icono propio, ventana «Acerca de», instalador y opción «Abrir con» para los PDF.\n- Avisa cuando hay una versión nueva y se actualiza solo."
+}
