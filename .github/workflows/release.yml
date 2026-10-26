@@ -1,5 +1,6 @@
-# Crea la release de GitHub automáticamente cada vez que se publica
-# una versión nueva (cuando cambia latest.json).
+# Respaldo: si alguna vez se sube un instalador a mano a la carpeta
+# instaladores/ y se actualiza latest.json, crea la release.
+# (Normalmente la crea la compilación en la nube del repositorio del código.)
 name: Publicar release
 
 on:
@@ -22,17 +23,20 @@ jobs:
         run: |
           VER=$(jq -r .version latest.json)
           INST=$(jq -r .installer latest.json)
+          case "$INST" in http*) echo "skip=1" >> "$GITHUB_OUTPUT"; echo "La release la crea la compilación en la nube"; exit 0;; esac
           jq -r .notes latest.json > notas.md
           printf '\n\n---\n**Instalar:** descarga `%s` (abajo, en *Assets*) y ábrelo. No pide permisos de administrador.\n' "$(basename "$INST")" >> notas.md
           echo "ver=$VER" >> "$GITHUB_OUTPUT"
           echo "inst=$INST" >> "$GITHUB_OUTPUT"
 
       - name: Comprobar el instalador
+        if: steps.info.outputs.skip != '1'
         run: |
           test -f "${{ steps.info.outputs.inst }}"
           echo "$(jq -r .sha256 latest.json)  ${{ steps.info.outputs.inst }}" | sha256sum -c -
 
       - name: Crear o actualizar la release
+        if: steps.info.outputs.skip != '1'
         env:
           GH_TOKEN: ${{ github.token }}
           VER: ${{ steps.info.outputs.ver }}
