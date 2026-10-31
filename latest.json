@@ -1,8 +1,8 @@
 {
-  "version": "0.6",
-  "installer": "https://github.com/locometopa/piston-versiones/releases/download/v0.6/Piston-0.6-setup.exe",
-  "size": 61638531,
-  "sha256": "2ecf27d306d24db3daf2539e8aa766414e97ee6846730f36bedf720e1b42a6bd",
+  "version": "0.7",
+  "installer": "https://github.com/locometopa/piston-versiones/releases/download/v0.7/Piston-0.7-setup.exe",
+  "size": 61650235,
+  "sha256": "d239a0d63bcba8c62ebb8681f035c8e5fff4ffd18ad29f358182786961678096",
   "date": "2026-10-31",
-  "notes": "**Rellenar formularios PDF**\n- Piston detecta los formularios rellenables (campos de texto, casillas, botones de opción y listas desplegables) y los marca en azul en la página.\n- Haz clic en un campo, o pulsa «Rellenar formulario» en el panel, para ir campo a campo: Intro o Tab pasan al siguiente, Mayús+Tab vuelve al anterior. Las casillas se marcan con un clic.\n- Respeta los campos de solo lectura y el número máximo de caracteres.\n- Nuevo en Archivo: «Aplanar formulario», que convierte lo rellenado en texto fijo para enviarlo.\n\n**Arrastrar y abrir**\n- Soltar un PDF funciona en cualquier parte de la ventana: el visor, las miniaturas, el panel o el buscador. Antes algunas zonas se lo «tragaban».\n- Ya no pregunta qué hacer: soltarlo en la página lo abre y soltarlo en las miniaturas añade sus páginas.\n- Se procesa justo después de soltar, para que el Explorador de Windows no se quede bloqueado.\n- «Abrir con Piston» desde el Explorador con Piston ya abierto abre el PDF en la misma ventana, en lugar de abrir otra.\n- Tras una actualización, Piston se vuelve a abrir sin permisos de administrador (con ellos, Windows no deja soltar archivos en la ventana).\n- El botón Abrir de la barra lleva ya su nombre."
+  "notes": "**Rellenar documentos que no tienen formulario**\n- Muchos PDF parecen formularios pero no tienen campos de verdad: escaneos, documentos hechos con Photoshop, o Word «impreso a PDF». Piston ahora encuentra sus huecos:\n  - recuadros grises o de color claro, y recuadros con borde,\n  - casillas ☐ (también las de la fuente Wingdings),\n  - huecos en blanco o con rayas dentro de una línea («En Madrid, a ___ de ___ 20__», «Teléfono: ______»).\n- Si los encuentra, el panel ofrece **«Rellenar este documento»**: los convierte en campos con su nombre (Nombre, DNI, Matrícula, Día, Mes, Año…) y te lleva de uno en uno.\n\n**Firmar**\n- Los sitios para firmar («Firma», «Fdo.») se reconocen solos. Al llegar a ellos puedes **dibujar la firma** con el ratón, usar tu **firma guardada** o una imagen.\n- La firma se puede guardar para usarla con un solo clic la próxima vez.\n- La herramienta Firma (tecla 5) también deja elegir entre firma guardada, dibujar una nueva o una imagen, para firmar en cualquier parte de cualquier PDF."
 }
