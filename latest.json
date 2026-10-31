@@ -1,8 +1,8 @@
 {
-  "version": "0.8",
-  "installer": "https://github.com/locometopa/piston-versiones/releases/download/v0.8/Piston-0.8-setup.exe",
-  "size": 61648003,
-  "sha256": "cf3706756308e651ed51a6194e3fcb4350ccbd8263d189e67fb2355855caa3c6",
+  "version": "0.9",
+  "installer": "https://github.com/locometopa/piston-versiones/releases/download/v0.9/Piston-0.9-setup.exe",
+  "size": 61659868,
+  "sha256": "1b7a078911df47222f1d6363bd2e984f45df7470a26495d0c0e4f2c0d82c0906",
   "date": "2026-10-31",
-  "notes": "**Más rápido**\n- **Zoom instantáneo:** la página se amplía al momento mientras giras la rueda (antes cada paso tardaba más de medio segundo) y se redibuja nítida al parar. Además, ahora amplía hacia donde está el ratón.\n- **Lectura del texto unas 10 veces más rápida.** Ya no se repite al hacer zoom ni al volver a una página.\n- **Pasar de página al instante:** la página siguiente se prepara mientras no haces nada, y las últimas vistas se guardan.\n- **Deshacer y editar más ágiles:** la copia para deshacer se prepara en los ratos libres.\n- **Miniaturas sin trabas:** se dibujan poco a poco, sin congelar la ventana al abrir documentos largos.\n- **Detección de huecos para rellenar el doble de rápida.**\n\n**Mensajes con el diseño de Piston**\n- Todos los avisos y preguntas tienen ahora el mismo aspecto oscuro que el programa, con su icono y los botones en castellano: «Guardar», «No guardar», «Eliminar»… Antes salían en inglés («Save», «Discard»).\n- Las barras de título de las ventanas son oscuras en Windows 10 y 11.\n- El selector de color, la petición de contraseña, los menús del texto y las ayudas al pasar el ratón también siguen el diseño y están en castellano."
+  "notes": "**Reducir tamaño** (Archivo → Reducir tamaño…)\n- Tres niveles: **Recomendado** (sin diferencia a la vista), **Máximo** (para enviar por correo) y **Sin tocar las imágenes** (solo limpieza).\n- Las imágenes que son grises aunque estén guardadas en color (algo muy habitual en Photoshop y en los escáneres) pasan a gris. Para cada imagen se elige el formato que menos ocupa: sin pérdida para texto, firmas y logos, y JPEG para fotos.\n- Las fotos de más de 200 ppp bajan a 150 ppp (o a 110 en «Máximo»), salvo las capas a página completa de Photoshop, que se romperían.\n- Quita los datos internos de los programas de diseño y recorta las fuentes a las letras usadas.\n- Compara cada página antes y después: si alguna se viera distinta, la deja como estaba.\n- Puedes guardar una **copia reducida** sin tocar el original, o aplicarlo al documento abierto (se puede deshacer).\n- Ejemplo: ALTA_LUNA.pdf pasa de 1,2 MB a 154 KB (−87 %) sin perder calidad.\n\n**Además**\n- Al guardar normalmente, el PDF ya ocupa algo menos (objetos agrupados y comprimidos)."
 }
