@@ -1,8 +1,8 @@
 {
-  "version": "0.7",
-  "installer": "https://github.com/locometopa/piston-versiones/releases/download/v0.7/Piston-0.7-setup.exe",
-  "size": 61650235,
-  "sha256": "d239a0d63bcba8c62ebb8681f035c8e5fff4ffd18ad29f358182786961678096",
+  "version": "0.8",
+  "installer": "https://github.com/locometopa/piston-versiones/releases/download/v0.8/Piston-0.8-setup.exe",
+  "size": 61648003,
+  "sha256": "cf3706756308e651ed51a6194e3fcb4350ccbd8263d189e67fb2355855caa3c6",
   "date": "2026-10-31",
-  "notes": "**Rellenar documentos que no tienen formulario**\n- Muchos PDF parecen formularios pero no tienen campos de verdad: escaneos, documentos hechos con Photoshop, o Word «impreso a PDF». Piston ahora encuentra sus huecos:\n  - recuadros grises o de color claro, y recuadros con borde,\n  - casillas ☐ (también las de la fuente Wingdings),\n  - huecos en blanco o con rayas dentro de una línea («En Madrid, a ___ de ___ 20__», «Teléfono: ______»).\n- Si los encuentra, el panel ofrece **«Rellenar este documento»**: los convierte en campos con su nombre (Nombre, DNI, Matrícula, Día, Mes, Año…) y te lleva de uno en uno.\n\n**Firmar**\n- Los sitios para firmar («Firma», «Fdo.») se reconocen solos. Al llegar a ellos puedes **dibujar la firma** con el ratón, usar tu **firma guardada** o una imagen.\n- La firma se puede guardar para usarla con un solo clic la próxima vez.\n- La herramienta Firma (tecla 5) también deja elegir entre firma guardada, dibujar una nueva o una imagen, para firmar en cualquier parte de cualquier PDF."
+  "notes": "**Más rápido**\n- **Zoom instantáneo:** la página se amplía al momento mientras giras la rueda (antes cada paso tardaba más de medio segundo) y se redibuja nítida al parar. Además, ahora amplía hacia donde está el ratón.\n- **Lectura del texto unas 10 veces más rápida.** Ya no se repite al hacer zoom ni al volver a una página.\n- **Pasar de página al instante:** la página siguiente se prepara mientras no haces nada, y las últimas vistas se guardan.\n- **Deshacer y editar más ágiles:** la copia para deshacer se prepara en los ratos libres.\n- **Miniaturas sin trabas:** se dibujan poco a poco, sin congelar la ventana al abrir documentos largos.\n- **Detección de huecos para rellenar el doble de rápida.**\n\n**Mensajes con el diseño de Piston**\n- Todos los avisos y preguntas tienen ahora el mismo aspecto oscuro que el programa, con su icono y los botones en castellano: «Guardar», «No guardar», «Eliminar»… Antes salían en inglés («Save», «Discard»).\n- Las barras de título de las ventanas son oscuras en Windows 10 y 11.\n- El selector de color, la petición de contraseña, los menús del texto y las ayudas al pasar el ratón también siguen el diseño y están en castellano."
 }
